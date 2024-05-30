@@ -1,0 +1,179 @@
+#root {
+  /* max-width: 100 vw; */
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color:  #E5E4E2; */
+}
+
+:root {
+  --green: #32cd32;
+  --blue: #007bc7;
+  --grey: rgba(0, 0, 0, 0.2);
+  --lightblue: #00bfff;
+  /* #1E90FF */
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+/* HEADER */
+.header-container {
+  background-color: white;
+  color: var(--blue);
+  border-bottom: 0.3vh solid rgb(218, 218, 218);
+  box-shadow: 0 0 0 2px rgba(162, 160, 160, 0.1);
+  height: max-content;
+  width: 100%;
+}
+
+.logo {
+  width: 8%;
+  height: auto;
+}
+
+.brand {
+  font-size: 1em;
+  font-weight: bold;
+  color: var(--blue);
+}
+
+.login {
+  width: 4%;
+  height: auto;
+  padding-right: 1%;
+}
+
+/* Footer */
+.footer-content {
+  border-top: 0.3vh solid var(--blue);
+  background-color: var(--grey);
+  padding: 4% 4% 1%;
+  margin: 0;
+}
+
+.foot-bottom {
+  font-weight: bold;
+  text-align: center;
+  padding-top: 3%;
+}
+
+.icon {
+  color: var(--blue);
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding-left: 0.5em;
+}
+
+.foot-link {
+  font-size: 1em;
+  font-style: italic;
+  transition: transform 0.3s;
+}
+
+.foot-link:hover {
+  transform: rotateX(50px);
+}
+
+.foot-title {
+  font-weight: bold;
+}
+
+.link:hover {
+  background-color: var(--green);
+}
+
+.foot-nav {
+  padding: 0;
+  margin: 0;
+}
+
+/* SIDEBAR */
+.sidebar-container {
+  background: var(--blue);
+  color: white;
+  height: 80vh;
+  width: 100%;
+  transition: all 0.5s;
+  padding: 2em 1em;
+  margin: 0;
+  text-align: center;
+  overflow: auto;
+}
+
+.profile {
+  border-radius: 50%;
+  height: auto;
+  width: 70%;
+}
+
+.link {
+  padding: 0.7em;
+  transition: all 0.5s;
+  border-radius: 5%/12%;
+}
+
+.link:hover {
+  /* background-color: var(--grey); */
+  background-color: var(--lightblue);
+  transition: all 0.5s;
+}
+
+.active {
+  background-color: var(--lightblue);
+  color: black;
+}
+
+.side-icon,
+.link-text {
+  font-size: 1.2em;
+  color: white;
+}
+
+.side-icon {
+  padding-right: 0.7em;
+}
+
+.sub-routes.open{
+  padding-left: 2em;
+  padding-top: 0;
+  margin: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.hamburger-menu {
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.login-dropdown {
+  width: max-content;
+  height: max-content;
+}
+
+/* HOME */
+
+/* .home {
+  p
+} */
+
+.count {
+  /* color: var(--green); */
+  font-size: 2em;
+  font-weight: bold;
+  color: var(--lightblue);
+}
